@@ -1,0 +1,7 @@
+# Bilerek boyle olan denetim bulgulari. Bicim: goruntu adi deseni<TAB>bulgu metninde gecen parca<TAB>neden
+*	nesne 184,95-307,111)	ana ekrandaki sarki adi kayan yazi, kenarlarda bilerek kirpilir
+*	nesne 245,127-463,148)	ana ekrandaki sarki adi kayan yazi, kenarlarda bilerek kirpilir (buyuk ekran)
+*	(16x14 px @125,126)	Spotify kapaginin kosesindeki liste dugmesi bilerek kapagin ustunde
+*	(21x18 px @166,168)	Spotify kapaginin kosesindeki liste dugmesi bilerek kapagin ustunde (buyuk ekran)
+isik_eslesmemis	Ampul bul ve	eslesmemis uyarisi yari saydam ortuyle kontrollerin ustunde
+mac_ekrani_uzun_alt	ust uste	mac olay bildirimi listenin ustunde gecici olarak durur

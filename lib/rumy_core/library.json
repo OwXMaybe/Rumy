@@ -1,0 +1,11 @@
+{
+  "name": "rumy_core",
+  "version": "1.0.0",
+  "description": "Rumy platformdan bagimsiz mantik: protokoller, ayristiricilar, hesaplar",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "srcDir": "src",
+    "includeDir": "src"
+  }
+}

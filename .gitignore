@@ -1,0 +1,16 @@
+.pio/
+.vscode/
+dist/
+secrets*.ini
+tools/.cache/
+tools/go2rtc/
+__pycache__/
+*.pyc
+yedek/
+kutu/
+*.3mf
+
+docs/preview*/*.gif
+tools/oyuncu_foto/*.jpg
+tools/oyuncu_foto/*.png
+tools/assets/lig_logolari/*.png

@@ -1,0 +1,14 @@
+[Unit]
+Description=Rumy masaustu arkadasi
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Service]
+ExecStart=%h/rumy/pi-build/rumy
+Restart=always
+RestartSec=2
+RestartPreventExitStatus=75
+TimeoutStopSec=5
+
+[Install]
+WantedBy=default.target

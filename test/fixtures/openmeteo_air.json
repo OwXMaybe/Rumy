@@ -1,0 +1,1 @@
+{"latitude":41.0,"longitude":27.5,"generationtime_ms":0.37801265716552734,"utc_offset_seconds":10800,"timezone":"Europe/Istanbul","timezone_abbreviation":"GMT+3","elevation":46.0,"current_units":{"time":"unixtime","interval":"seconds","european_aqi":"EAQI","pm10":"μg/m³","pm2_5":"μg/m³"},"current":{"time":1790366400,"interval":3600,"european_aqi":26,"pm10":8.6,"pm2_5":7.2}}

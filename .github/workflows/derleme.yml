@@ -1,0 +1,38 @@
+name: Derleme
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  derleme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.platformio/.cache
+            ~/.platformio/packages
+            ~/.platformio/platforms
+          key: pio-${{ runner.os }}-${{ hashFiles('platformio.ini', 'updater/platformio.ini') }}
+      - name: PlatformIO
+        run: pip install platformio
+      - name: Birim testleri
+        run: pio test -e native
+      - name: Kart yazilimi (ILI9341 ve ST7789)
+        run: |
+          set -o pipefail
+          pio run -e cyd -e cyd_st7789 2>&1 | tee derleme.log
+      - name: Uyari denetimi
+        run: |
+          if grep -E '^(src|lib/rumy_core)/.*warning:' derleme.log; then
+            echo "Proje kaynaklarinda derleyici uyarisi var"
+            exit 1
+          fi

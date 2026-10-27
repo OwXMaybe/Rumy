@@ -1,0 +1,12 @@
+Rumy SD kart icerigi
+====================
+
+1. SD karti FAT32 bicimlendirin (32 GB ve alti en sorunsuzudur).
+2. Bu klasordeki "rumy" klasorunu kartin KOK dizinine kopyalayin:
+     /rumy/img/64, /rumy/img/48, /rumy/img/28, /rumy/img/24   hava ikonlari (Meteocons, MIT)
+     /rumy/events.json                                         kisisel onemli gunler (web arayuzunden duzenlenir)
+3. /rumy/cache ve /rumy/holidays klasorlerini Rumy kendisi olusturur.
+4. Launcher kullaniyorsaniz dist/Rumy.bin dosyasini da kartin kokune kopyalayin.
+
+SD kart yoksa Rumy yine calisir; hava ikonlari icin flash'taki basit yedek set kullanilir
+ve ana ekranda bir uyari karti gosterilir.
