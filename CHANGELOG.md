@@ -3,7 +3,7 @@
 Sürüm numarası `platformio.ini` içindeki `[rumy] version` değeridir ve Rumy'nin Tanılama ekranında, `rapor`
 çıktısında ve uygulamanın Bakım bölümünde görünür.
 
-## 1.3.0 — ilk açık kaynak sürümü
+## 1.3.0 — kaynağı açık ilk sürüm
 
 - **Takım seçimi:** Süper Lig ve beş büyük ligden (Premier Lig, LaLiga, Serie A, Bundesliga, Ligue 1) istenen takım
   uygulamanın Futbol bölümünden seçilir; lig sekmeleri ve renkli rozetli takım listesi (`tools/make_teams.py` ile
