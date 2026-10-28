@@ -12,8 +12,9 @@ Rumy; saati, hava durumunu, Marmara depremlerini, bayramları ve senin önemli g
 > Turkey (AFAD / Kandilli), Turkish holidays and your own special days, WiZ bulb control, live football for any team in
 > the Süper Lig or the top five European leagues (ESPN; the goal screen and the bulb take your team's colours),
 > Spotify "now playing" through a small PC bridge, Creality K2 print status and a Claude Code / Codex agent light.
-> All settings live in a phone/PC web app served by the device itself. The user interface and the documentation are in
-> Turkish. Flash a release image (see *USB ile kurulum*) or build with PlatformIO: `pio run -e cyd`. Source-available
+> All settings live in a phone/PC web app served by the device itself. The interface is in English by default with
+> Turkish selectable; the full English documentation is in [README.en.md](README.en.md). Flash a release image (see
+> *USB ile kurulum*) or build with PlatformIO: `pio run -e cyd`. Source-available
 > under the PolyForm Noncommercial License 1.0.0: free for personal, hobby, educational and research use, including
 > modifications; commercial use (selling it or putting it into a paid product or service) needs separate permission —
 > open an issue or contact [@SudoMrSpear](https://github.com/SudoMrSpear). Third-party notices are in
@@ -57,6 +58,8 @@ Rumy; saati, hava durumunu, Marmara depremlerini, bayramları ve senin önemli g
 - **Gece modu:** ekran kısılır, Rumy uyur, küçük saat kalır; dokununca 30 sn uyanır.
 - **Telefon uygulaması:** iPhone'un ana ekranına eklenen Rumy uygulaması; bütün ayarlar, "Şimdi uyut" düğmesi,
   takım ve ampul seçenekleri, önemli günler (bir kez eşleştirilir).
+- **Dil:** yeni kurulumlarda arayüz İngilizce açılır; Ayarlar → Language / Dil ya da uygulamada Genel → Language / Dil
+  ile Türkçeye geçilir (Rumy yeniden başlar).
 
 ## İçindekiler
 
@@ -875,7 +878,7 @@ Tanılama: `wiz durum | tara | esle <mac> | ac | kapat | parlak <10-100> | sicak
 - **Güvenlik:** Rumy yalnızca ev ağında kullanılmak üzere tasarlandı; güven modeli ve açık bildirme yolu
   [SECURITY.md](SECURITY.md) dosyasında. 80 (uygulama) ve 7777 (köprü) portlarını internete açma.
 - **Teknik doküman:** mimari, ekranlar, bellek, ağ ve ölçümler [Rumy_Proje_Dokumani.md](Rumy_Proje_Dokumani.md)
-  dosyasında.
+  dosyasında (İngilizcesi: [Rumy_Project_Document.md](Rumy_Project_Document.md)).
 - **Yasal not:** Rumy bağımsız bir hobi projesidir; ESPN, LiveScore, TheSportsDB, UEFA, TFF ya da adı geçen ligler ve
   kulüpler, Spotify, WiZ (Signify), Creality, Anthropic, OpenAI, Claw Light, AFAD, Kandilli Rasathanesi, Open-Meteo ile
   bağlantılı değildir ve onlar tarafından desteklenmez. Adlar yalnızca uyumluluğu anlatmak için geçer. Maç verisi
