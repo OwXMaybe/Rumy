@@ -6,6 +6,9 @@ Sürüm numarası `platformio.ini` içindeki `[rumy] version` değeridir ve Rumy
 ## Yayınlanmamış
 
 - **English / İngilizce:** cihaz arayüzü, telefon uygulaması, ilk kurulum portalı ve kablosuz güncelleyici artık İngilizce de çalışır. Yeni kurulumlarda varsayılan dil İngilizce; Ayarlar → Language / Dil ya da uygulamada Genel → Language / Dil ile Türkçeye geçilir (Rumy yeniden başlar). Ayar NVS'te `dil` anahtarında durur.
+- **Web kurulum:** <https://sudomrspear.github.io/Rumy/> adresinde Chrome/Edge'den tek tıkla kurulum (ESP Web Tools);
+  ILI9341 ve ST7789 seçilir. Her yeni sürümde `web_kurulum.yml` sürümün tam imajlarıyla sayfayı yeniden yayınlar.
+- **İngilizce README:** `README.en.md`.
 
 ## 1.3.0 — kaynağı açık ilk sürüm
 
