@@ -3,6 +3,10 @@
 Sürüm numarası `platformio.ini` içindeki `[rumy] version` değeridir ve Rumy'nin Tanılama ekranında, `rapor`
 çıktısında ve uygulamanın Bakım bölümünde görünür.
 
+## Yayınlanmamış
+
+- **English / İngilizce:** cihaz arayüzü, telefon uygulaması, ilk kurulum portalı ve kablosuz güncelleyici artık İngilizce de çalışır. Yeni kurulumlarda varsayılan dil İngilizce; Ayarlar → Language / Dil ya da uygulamada Genel → Language / Dil ile Türkçeye geçilir (Rumy yeniden başlar). Ayar NVS'te `dil` anahtarında durur.
+
 ## 1.3.0 — kaynağı açık ilk sürüm
 
 - **Takım seçimi:** Süper Lig ve beş büyük ligden (Premier Lig, LaLiga, Serie A, Bundesliga, Ligue 1) istenen takım
