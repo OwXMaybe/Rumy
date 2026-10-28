@@ -11,8 +11,11 @@ Rumy; saati, hava durumunu, Marmara depremlerini, bayramları ve senin önemli g
 > the Süper Lig or the top five European leagues (ESPN; the goal screen and the bulb take your team's colours),
 > Spotify "now playing" through a small PC bridge, Creality K2 print status and a Claude Code / Codex agent light.
 > All settings live in a phone/PC web app served by the device itself. The user interface and the documentation are in
-> Turkish. Flash a release image (see *USB ile kurulum*) or build with PlatformIO: `pio run -e cyd`. Licensed under
-> the MIT License; third-party notices are in `THIRD_PARTY_NOTICES.md`.
+> Turkish. Flash a release image (see *USB ile kurulum*) or build with PlatformIO: `pio run -e cyd`. Source-available
+> under the PolyForm Noncommercial License 1.0.0: free for personal, hobby, educational and research use, including
+> modifications; commercial use (selling it or putting it into a paid product or service) needs separate permission —
+> open an issue or contact [@SudoMrSpear](https://github.com/SudoMrSpear). Third-party notices are in
+> `THIRD_PARTY_NOTICES.md`.
 
 - **Ana ekran:** siyah zemin üzerinde doygun neon renkler. Rumy'nin gözleri, yeşil konum, ampul düğmesi, iki noktası
   yanıp sönen büyük saat (saat yeşil, dakika beyaz), sağında sola hizalı bir sütun: üstte selam ("İyi geceler
@@ -733,7 +736,13 @@ ağ hataları ve beklenmeyen yeniden başlatmaları verir. Sızıntı şüphesi 
 
 ## 12. Lisanslar
 
-Rumy'nin kendi kodu [MIT lisanslıdır](LICENSE). Kullanılan kütüphaneler, yazı tipleri, ikonlar ve veri kaynaklarının
+Rumy'nin kendi kodu [PolyForm Noncommercial 1.0.0](LICENSE) lisanslıdır: kişisel kullanım, hobi, eğitim ve
+araştırma için kullanabilir, değiştirebilir ve paylaşabilirsin; ticari kullanım (satmak, ücretli bir ürüne ya da
+hizmete koymak) lisansa dahil değildir ve ayrıca izin gerektirir. Ticari izin için GitHub'da bir issue aç ya da
+[@SudoMrSpear](https://github.com/SudoMrSpear) profilinden ulaş. Bu yüzden proje OSI tanımıyla "açık kaynak" değil,
+"kaynağı açık" bir projedir.
+
+Kullanılan kütüphaneler, yazı tipleri, ikonlar ve veri kaynaklarının
 listesi ile lisans notları [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) dosyasında, lisans metinleri `LICENSES/`
 klasöründedir. Özetle:
 

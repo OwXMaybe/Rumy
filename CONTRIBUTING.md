@@ -47,4 +47,7 @@ pio test -e native
 - Depoya kulüp ya da turnuva logosu, oyuncu fotoğrafı veya lisansı belirsiz görsel eklenmez.
 - Yeni bir kütüphane, yazı tipi ya da ikon eklersen lisansını `THIRD_PARTY_NOTICES.md`'ye ve gerekiyorsa metnini
   `LICENSES/` altına koy.
-- Katkıların projenin MIT lisansıyla yayınlanır.
+- Katkıların projenin lisansıyla (PolyForm Noncommercial 1.0.0) yayınlanır. Bir katkı göndererek, katkının proje
+  sahibi tarafından ticari lisanslara da dahil edilebilmesi için proje sahibine (Kerem Mızrak) katkın üzerinde
+  süresiz, dünya çapında, devredilebilir ve alt lisans verilebilir bir kullanım hakkı tanımış olursun. Bunu kabul
+  etmiyorsan PR'ın açıklamasına yaz; katkını o şekilde değerlendiririz.

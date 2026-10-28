@@ -1,6 +1,6 @@
 # Üçüncü taraf bileşenler ve notlar
 
-Rumy'nin kendi kodu MIT lisanslıdır (`LICENSE`). Aşağıdaki bileşenler kendi lisanslarıyla kullanılır; lisans
+Rumy'nin kendi kodu PolyForm Noncommercial 1.0.0 lisanslıdır (`LICENSE`); ticari kullanım ayrıca izin ister. Aşağıdaki bileşenler kendi lisanslarıyla kullanılır; lisans
 metinleri `LICENSES/` klasöründedir.
 
 ## Kart yazılımına derlenenler
@@ -33,7 +33,7 @@ Arduino-ESP32 LGPL-2.1 ile lisanslıdır: derlenmiş imajı yeniden oluşturmak 
 Yazı tipleri dönüştürülürken yeniden adlandırılmıştır (`font_rumy_*`); Font Awesome'ın ayrılmış adı kullanılmaz.
 
 Rumy'nin yüzü, aksesuarları, dönen plak ve futbol topu kareleri, uygulama simgesi ve lig rozetleri bu projede
-çizilmiştir ve MIT lisansına dahildir. Depoda hiçbir kulüp ya da turnuva logosu ve oyuncu fotoğrafı yoktur.
+çizilmiştir ve projenin lisansına (PolyForm Noncommercial 1.0.0) dahildir. Depoda hiçbir kulüp ya da turnuva logosu ve oyuncu fotoğrafı yoktur.
 
 ## Çalışırken kullanılan servisler
 

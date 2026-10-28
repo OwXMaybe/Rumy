@@ -17,7 +17,7 @@ Sürüm numarası `platformio.ini` içindeki `[rumy] version` değeridir ve Rumy
 - **Lig rozetleri:** depoda kulüp ya da turnuva logosu yoktur; kartlarda kısaltmalı sade rozetler görünür. Kendi
   logolarını `tools/assets/lig_logolari/` klasörüne koyan kullanıcı onları kullanabilir.
 - Varsayılan konum İstanbul; örnek veriler ve önizleme görüntüleri kişisel bilgilerden arındırıldı.
-- MIT lisansı, üçüncü taraf lisans notları, katkı ve güvenlik belgeleri, GitHub Actions derlemesi.
+- PolyForm Noncommercial 1.0.0 lisansı (ticari kullanım için izin gerekir), üçüncü taraf lisans notları, katkı ve güvenlik belgeleri, GitHub Actions derlemesi.
 
 ## 1.2.0 sonrası geliştirmeler (Ekim 2026)
 
